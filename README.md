@@ -1,6 +1,5 @@
 BGI_CoolingZones
 
-Overview
 This ArcGIS Python script automates the process of analyzing Land Surface Temperature (LST) data to identify cooling zones and calculate the cooling potential of parks within a given region. It processes multiple LST raster datasets and corresponding park boundary layers to generate meaningful insights into the cooling effects of blue-green infrastructure.
 
 Requirements
