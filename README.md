@@ -7,14 +7,14 @@ ArcGIS Pro (with Spatial Analyst extension);
 Python 3.x (comes with ArcGIS Pro);
 Input Data:
 A geodatabase containing the LST rasters and park boundary layers.
-LST raster files named in the format LST_YYYMMDD, where YYYMMDD represents the acquisition date.
+LST raster files named in the format LST_YYYYMMDD, where YYYYMMDD represents the acquisition date.
 
 Installation:
 Clone this repository or download the script file.
 
 Prepare Your Data:
 Ensure that all your LST raster files and the park boundary layer are in the same geodatabase.
-The LST raster files should be named following the pattern: LST_YYYMMDD.
+The LST raster files should be named following the pattern: LST_YYYYMMDD.
 
 Usage:
 1. Script Inputs
@@ -37,10 +37,10 @@ Execute the script. It will process each LST raster, generating cooling zones an
 3. Output
 Cooling Zones: Feature layers representing cooling zones for each LST raster, named using the provided prefix and acquisition date.
 BGI Layer with Cooling Potential: The BGI boundary layer with additional fields representing the cooling potential metrics:
-HCDMAX_YYYMMDD: Maximum cooling distance.
-HCI_YYYMMDD: Cooling index.
-CA_YYYMMDD: Cooling area.
-CA_AR_YYYMMDD: Cooling area ratio.
+HCDMAX_YYYYMMDD: Maximum cooling distance.
+HCI_YYYYMMDD: Cooling index.
+CA_YYYYMMDD: Cooling area.
+CA_AR_YYYYMMDD: Cooling area ratio.
 Example
 If your geodatabase is located at C:\GISData\UrbanCooling.gdb, and your input BGI layer is BGIs, your script input values might look like this:
 
